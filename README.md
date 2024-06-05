@@ -1,4 +1,4 @@
-# Top UK TIKtOK Influencer Analysis
+# Top UK TIKTOK Influencer Analysis
 
 ## Overview
 
@@ -115,7 +115,7 @@ plt.show()
 ````
 
  ![alt text](../output2.png)
- 
+
 
 
  * 3. Metrics : Calculated summary statistics for numerical colums such as followers and potential reach to understand thier distribution. Using mean and median for both by Topic of Influence.
