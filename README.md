@@ -114,7 +114,8 @@ plt.ylabel('Potential Reach')
 plt.show()
 ````
 
- ![alt text](../output2.png)`
+ ![alt text](../output2.png)
+ 
 
 
  * 3. Metrics : Calculated summary statistics for numerical colums such as followers and potential reach to understand thier distribution. Using mean and median for both by Topic of Influence.
