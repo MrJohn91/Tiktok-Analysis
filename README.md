@@ -96,6 +96,8 @@ plt.show()
 
 
 
+
+
 * 2. Relationship Analysis : Using scatter plot to understand the connections between followers and potential reach.
 
 ````python
@@ -112,7 +114,8 @@ plt.ylabel('Potential Reach')
 plt.show()
 ````
 
- ![alt text](../output2.png)
+ ![alt text](../output2.png)`
+```
 
 
 
