@@ -110,7 +110,6 @@ plt.ylabel('Potential Reach')
 # Show the plot
 plt.show()
 ````
-
 ![alt text](../output2.png)
 
 
@@ -160,7 +159,7 @@ fig.show()
 ````
 ![alt text](topfollowers.png)
 
-````
+````python
 # Top Influencers by Potential Reach
 top_influencers_reach = df.nlargest(30, 'POTENTIAL REACH')
 # Create a bar chart using Plotly
