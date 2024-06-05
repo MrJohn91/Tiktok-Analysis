@@ -92,9 +92,11 @@ plt.show()
 #Hist shows that there are around 70 infulencers who fall within a specific range of followers
 `````
 
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/vee/Desktop/Projects/Ex_Files_ML_with_Python_Foundations/output.png?version%3D1717605463272)
+![alt text](../output.png)
+
 
 * 2. Relationship Analysis : Using scatter plot to understand the connections between followers and potential reach.
+
 ````python
 # Relationship between followers and potential reach
 plt.figure(figsize=(10, 6))
@@ -109,9 +111,10 @@ plt.ylabel('Potential Reach')
 plt.show()
 ````
 
+![alt text](../output2.png)
 
 
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/vee/Desktop/Projects/Ex_Files_ML_with_Python_Foundations/output2.png?version%3D1717605568921)
+
  * 3. Metrics : I calculated summary statistics for numerical colums such as followers and potential reach to understand thier distribution. Using mean and median for both by Topic of Influence.
  ````python
  #creating interactive plots to visualize the mean and median for followers and potential reach for each topic of influence
@@ -135,8 +138,10 @@ fig_reach_bar.show()
 # median score for followers and potential reach is 19.1 and 5.7 respectively
 ````
 
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/vee/Desktop/Projects/Ex_Files_ML_with_Python_Foundations/git-repo/followers%20mean.png?version%3D1717604055438)![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/vee/Desktop/Projects/Ex_Files_ML_with_Python_Foundations/git-repo/newplot.png?version%3D1717604708303)
 
+![alt text](<followers mean.png>)
+
+![alt text](newplot.png)
 
 
 
@@ -150,11 +155,11 @@ top_influencers_followers = df.nlargest(30, 'FOLLOWERS')
 # Create a bar chart using Plotly
 fig = px.bar(top_influencers_followers, x='NAME', y='FOLLOWERS', title='Top 30 TikTok Influencers by Followers')
 fig.show()
+
 ````
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/vee/Desktop/Projects/Ex_Files_ML_with_Python_Foundations/git-repo/topfollowers.png?version%3D1717604914702)
+![alt text](topfollowers.png)
 
-
-`````python
+````
 # Top Influencers by Potential Reach
 top_influencers_reach = df.nlargest(30, 'POTENTIAL REACH')
 # Create a bar chart using Plotly
@@ -162,11 +167,7 @@ fig = px.bar(top_influencers_followers, x='NAME', y='POTENTIAL REACH', title='To
 fig.show()
 `````
 
-
-
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/vee/Desktop/Projects/Ex_Files_ML_with_Python_Foundations/git-repo/potentail%20reach.png?version%3D1717605141033)
-
-
+![alt text](<potentail reach.png>)
 
 
 
@@ -199,11 +200,11 @@ fig_reach.show()
 ````
 
 
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/vee/Desktop/Projects/Ex_Files_ML_with_Python_Foundations/git-repo/df.png?version%3D1717605232362)
+![alt text](df.png)
 
 
+![alt text](dp.png)
 
-![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/vee/Desktop/Projects/Ex_Files_ML_with_Python_Foundations/git-repo/dp.png?version%3D1717605289784)
 
 #### Step 5 : Insights and Recommendations
 
